@@ -86,7 +86,7 @@ const Todo = () => {
         }, 500)
     }
 
-    const errorMessage = data.length === 0
+    const errorMessage = todos.length === 0
 
     return (
         <div className='todoList'>
