@@ -2,7 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://kirank27751.github.io/todoApp).
 
+## Screenshot
+![todo](https://user-images.githubusercontent.com/32581229/207603551-f1bacde6-bcaa-4a0a-b12c-9a8700a11038.png)
+
+
+
 ## Available Scripts
+
 
 In the project directory, you can run:
 
