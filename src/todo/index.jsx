@@ -54,16 +54,19 @@ const Todo = () => {
     }
 
     const addToDo = () => {
-        const date = new Date()
-        const newToDoObj = {
-            id: date.getTime(),
-            title: inputValue,
-            completed: false,
-            userId: 1
-        }
+        if (inputValue) {
+            const date = new Date()
+            const newToDoObj = {
+                id: date.getTime(),
+                title: inputValue,
+                completed: false,
+                userId: 1
+            }
 
-        setData([...data, newToDoObj])
-        setInputValue("")
+            setData([...data, newToDoObj])
+            setInputValue("")
+        }
+        return
     }
 
     const deleteToDo = (id) => {
